@@ -1,7 +1,6 @@
 # Semantic-Segmentation-of-Invasive-Cancer-in-Histopathological-Whole-Slide-Images
 Segments different type of cancerous regions of an image of a tissue using semantic segmentation.
 
-
 Implementation
 
 	We implemented this model using tensorflow and openslide library in python. For reading images we used scipy and opencv. Our code uses input as .svs files for features and .xml file with coordinates of cancerous regions as label.
@@ -33,5 +32,6 @@ Implementation
 			Tensorboard
 		
 	Note: Make sure everything is updated.
+
 	
   Before running Store .svs files in work folder and create  a dataset and beanbag folder.
