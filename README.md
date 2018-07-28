@@ -3,7 +3,8 @@ Segments different type of cancerous regions of an image of a tissue using seman
 
 Implementation
 
-	We implemented this model using tensorflow and openslide library in python. For reading images we used scipy and opencv.
+	We implemented this model using tensorflow and openslide library in python. For reading images we used scipy and
+	opencv.
 	Our code uses input as .svs files for features and .xml file with coordinates of cancerous regions as label.
 	
 	Preprocessing needs to be done to convert .svs and .xml files into patches of [2000,2000,3] which can be fed into
@@ -26,7 +27,9 @@ Implementation
 	Separate training and testing files were created with relevant global variables. Trained model was stored in 
 	beanbag/model which can be directly imported for testing.
 	
-	For Testing: WSI_testing.py can be executed specifying proper directory names in the global variables of that file.	
+	For Testing: WSI_testing.py can be executed specifying proper directory names in the global variables of that 
+	file.	
+	
 	Requirements
 	For testing make sure that PC fulfills following requirements:
 	
