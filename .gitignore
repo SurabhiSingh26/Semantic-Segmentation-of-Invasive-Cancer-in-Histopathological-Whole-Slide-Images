@@ -1,0 +1,10 @@
+*.png
+*.jpg
+*.svs
+*.txt
+*.npy
+venv/
+report/
+beanbag/summary
+.idea/
+_pycache_/
